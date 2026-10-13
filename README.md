@@ -15,6 +15,7 @@ Built with **MATLAB App Designer**, using the Image Processing and Image Acquisi
 ```
 .
 ├── app.mlapp               # the app (interface + processing)
+├── History.mat             # history and metrics
 ├── signs/                  # images of the 11 recognized signs
 ├── images/                 # screenshots and block diagrams
 └── README.md
