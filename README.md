@@ -25,7 +25,7 @@ Built with **MATLAB App Designer**, using the Image Processing and Image Acquisi
 ## Recognized signs
 
 The app knows **11 Portuguese traffic signs**, grouped by their main colour:
-
+<p align="center">
 | Red | | | | |
 |:---:|:---:|:---:|:---:|:---:|
 | <img src="signs/sinalProibido.png" width="90"> | <img src="signs/sinalUltrapassagem.png" width="90"> | <img src="signs/sinalCedencia.png" width="90"> | <img src="signs/sinalLomba.png" width="90"> | <img src="signs/sinalNeve.png" width="90"> |
@@ -40,7 +40,7 @@ The app knows **11 Portuguese traffic signs**, grouped by their main colour:
 |:---:|:---:|
 | <img src="signs/sinallAvisoLomba.png" width="90"> | <img src="signs/sinalAvisoSemaforo.jpg" width="90"> |
 | Speed bump (temporary) | Traffic lights ahead (temporary) |
-
+</p>
 When none of them is in view, the app shows **"Nenhum"** (none).
 
 ---
@@ -60,6 +60,18 @@ When none of them is in view, the app shows **"Nenhum"** (none).
 - **Image Processing Toolbox**
 - **Image Acquisition Toolbox** with the **OS Generic Video Interface** support package (`winvideo`, so it runs on **Windows**)
 - A webcam
+
+---
+
+## Key points
+
+- **Real-time:** frames are captured and classified continuously from the webcam.
+- **Colour calibration in the app:** after pressing *Calibrate Red/Blue/Yellow*, the user clicks **5 points** of that colour on the live image. The app reads their HSV values and adds a safety margin, so similar shades are still accepted. The values can also be typed in by hand. This avoids changing the code whenever the lighting changes.
+- **Debug panels:** one panel per colour shows the intermediate masks (biggest object, black/white/red inside) and the values used to decide (circularity, object counts, proportions, centres).
+- **Manual validation:** *Pause* freezes the processing so the user can mark the result as **Correct** or **Incorrect**. When it is incorrect, the user picks the real sign from a list.
+- **History and metrics:** every validation is saved to `History.mat` (detected sign, real sign, result, HSV thresholds, date and time). The history panel shows them in a table, with a correct/incorrect bar chart and the **accuracy, precision and recall** over time.
+
+![History panel with validated samples and performance metrics](images/historico.png)
 
 ---
 
@@ -88,18 +100,6 @@ The full decision logic:
 <p align="center">
   <img src="images/Robotica%20-%20TP1%20-%20diagrama2.png" width="48%">
 </p>
-
----
-
-## Key points
-
-- **Real-time:** frames are captured and classified continuously from the webcam.
-- **Colour calibration in the app:** after pressing *Calibrate Red/Blue/Yellow*, the user clicks **5 points** of that colour on the live image. The app reads their HSV values and adds a safety margin, so similar shades are still accepted. The values can also be typed in by hand. This avoids changing the code whenever the lighting changes.
-- **Debug panels:** one panel per colour shows the intermediate masks (biggest object, black/white/red inside) and the values used to decide (circularity, object counts, proportions, centres).
-- **Manual validation:** *Pause* freezes the processing so the user can mark the result as **Correct** or **Incorrect**. When it is incorrect, the user picks the real sign from a list.
-- **History and metrics:** every validation is saved to `History.mat` (detected sign, real sign, result, HSV thresholds, date and time). The history panel shows them in a table, with a correct/incorrect bar chart and the **accuracy, precision and recall** over time.
-
-![History panel with validated samples and performance metrics](images/historico.png)
 
 ---
 
