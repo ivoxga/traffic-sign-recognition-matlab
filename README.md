@@ -26,7 +26,7 @@ Built with **MATLAB App Designer**, using the Image Processing and Image Acquisi
 
 The app knows **11 Portuguese traffic signs**, grouped by their main colour:
 
-| Red |
+| Red | | | | |
 |:---:|:---:|:---:|:---:|:---:|
 | <img src="signs/sinalProibido.png" width="90"> | <img src="signs/sinalUltrapassagem.png" width="90"> | <img src="signs/sinalCedencia.png" width="90"> | <img src="signs/sinalLomba.png" width="90"> | <img src="signs/sinalNeve.png" width="90"> |
 | No entry | No overtaking | Give way | Speed bump ahead | Snow / ice risk |
@@ -40,6 +40,8 @@ The app knows **11 Portuguese traffic signs**, grouped by their main colour:
 |:---:|:---:|
 | <img src="signs/sinallAvisoLomba.png" width="90"> | <img src="signs/sinalAvisoSemaforo.jpg" width="90"> |
 | Speed bump (temporary) | Traffic lights ahead (temporary) |
+
+<div align="center"> <table> <tr> <th colspan="5" align="center">Red</th> </tr> <tr> <td align="center"><img src="signs/sinalProibido.png" width="90"></td> <td align="center"><img src="signs/sinalUltrapassagem.png" width="90"></td> <td align="center"><img src="signs/sinalCedencia.png" width="90"></td> <td align="center"><img src="signs/sinalLomba.png" width="90"></td> <td align="center"><img src="signs/sinalNeve.png" width="90"></td> </tr> <tr> <td align="center">No entry</td> <td align="center">No overtaking</td> <td align="center">Give way</td> <td align="center">Speed bump ahead</td> <td align="center">Snow / ice risk</td> </tr> </table> <br> <table> <tr> <th colspan="4" align="center">Blue</th> </tr> <tr> <td align="center"><img src="signs/sinalDireita.png" width="90"></td> <td align="center"><img src="signs/sinalEsquerda.png" width="90"></td> <td align="center"><img src="signs/sinalRotunda.png" width="90"></td> <td align="center"><img src="signs/sinalSemSaida.png" width="90"></td> </tr> <tr> <td align="center">Turn right</td> <td align="center">Turn left</td> <td align="center">Roundabout</td> <td align="center">Dead end</td> </tr> </table> <br> <table> <tr> <th colspan="2" align="center">Yellow</th> </tr> <tr> <td align="center"><img src="signs/sinallAvisoLomba.png" width="90"></td> <td align="center"><img src="signs/sinalAvisoSemaforo.jpg" width="90"></td> </tr> <tr> <td align="center">Speed bump (temporary)</td> <td align="center">Traffic lights ahead (temporary)</td> </tr> </table> </div>
 
 When none of them is in view, the app shows **"Nenhum"** (none).
 
