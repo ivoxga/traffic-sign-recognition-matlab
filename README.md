@@ -112,4 +112,4 @@ The full decision logic:
 
 ## Author
 
-**Ivo Azevedo**
+**Ivo Azevedo & Tiago Oliveira**
