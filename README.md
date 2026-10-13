@@ -84,7 +84,7 @@ The full decision logic:
 
 <p align="center">
   <img src="images/Robotica%20-%20TP1%20-%20diagrama1.png" width="48%">
-  <img src="images/Robotica20-20TP120-%20diagrama2.png" width="48%">
+  <img src="images/Robotica%20-%20TP1%20-%20diagrama2.png" width="48%">
 </p>
 
 ---
