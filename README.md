@@ -25,7 +25,7 @@ Built with **MATLAB App Designer**, using the Image Processing and Image Acquisi
 ## Recognized signs
 
 The app knows **11 Portuguese traffic signs**, grouped by their main colour:
-<p align="center">
+
 | Red | | | | |
 |:---:|:---:|:---:|:---:|:---:|
 | <img src="signs/sinalProibido.png" width="90"> | <img src="signs/sinalUltrapassagem.png" width="90"> | <img src="signs/sinalCedencia.png" width="90"> | <img src="signs/sinalLomba.png" width="90"> | <img src="signs/sinalNeve.png" width="90"> |
@@ -40,7 +40,7 @@ The app knows **11 Portuguese traffic signs**, grouped by their main colour:
 |:---:|:---:|
 | <img src="signs/sinallAvisoLomba.png" width="90"> | <img src="signs/sinalAvisoSemaforo.jpg" width="90"> |
 | Speed bump (temporary) | Traffic lights ahead (temporary) |
-</p>
+
 When none of them is in view, the app shows **"Nenhum"** (none).
 
 ---
