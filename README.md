@@ -11,7 +11,7 @@ The app also lets the user **calibrate the colours on the spot**, **look at ever
 
 > Project developed for the course **Robotics**, BSc in **Electrical and Computer Engineering**, **Instituto Politécnico do Cávado e Ave (IPCA)**, **3rd year**.
 
----
+--- 
 
 ## Repository structure
 
