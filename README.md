@@ -9,6 +9,8 @@ The app also lets the user **calibrate the colours on the spot**, **look at ever
   <em>The idea in three steps: colour, then shape, then what's inside</em>
 </p>
 
+> Project developed for the course **Robotics**, BSc in **Electrical and Computer Engineering**, **Instituto Politécnico do Cávado e Ave (IPCA)**, **3rd year**.
+
 ---
 
 ## Repository structure
@@ -250,4 +252,4 @@ Each record goes to `History.mat` with the detected sign, the real sign, the ver
 
 ## Author
 
-**Ivo Azevedo**
+**Ivo Azevedo & Tiago Oliveira**
