@@ -6,15 +6,17 @@ Built with **MATLAB App Designer**, using the Image Processing and Image Acquisi
 
 ![Main screen of the app](images/home_p.png)
 
+> Project developed for the course **Robotics**, BSc in **Electrical and Computer Engineering**, **Instituto Politécnico do Cávado e Ave (IPCA)**, **3rd year**.
+
 ---
 
 ## Repository structure
 
 ```
 .
-├── app_TP1_25547_15526.mlapp   # the app (interface + processing)
-├── signs/                      # images of the 11 recognized signs
-├── images/                     # screenshots and block diagrams
+├── app.mlapp               # the app (interface + processing)
+├── signs/                  # images of the 11 recognized signs
+├── images/                 # screenshots and block diagrams
 └── README.md
 ```
 
