@@ -34,7 +34,7 @@ When none of them is in view, the app shows **"Nenhum"** (none).
 
 ## Using the app
 
-1. Open `app_TP1_25547_15526.mlapp` in MATLAB and run it.
+1. Open `app.mlapp` in MATLAB and run it.
 2. Press **Connect** to start the webcam.
 3. Calibrate the colours with **Calibrate Red / Blue / Yellow**, or type the HSV values and press **Manually Input HSV Values**.
 4. Press **Start Processing**. The processed image and the detected sign appear on the right.
