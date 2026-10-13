@@ -15,7 +15,8 @@ The app also lets the user **calibrate the colours on the spot**, **look at ever
 
 ```
 .
-├── app_TP1_25547_15526.mlapp   # the app: interface and image processing
+├── app.mlapp                   # the app: interface and image processing
+├── History.mat                 # history and metrics
 ├── signs/                      # reference images of the 11 recognized signs
 ├── images/                     # figures used in this README
 └── README.md
@@ -96,7 +97,7 @@ When none of them is in view, the app shows **"Nenhum"** (none).
   <em>Main screen: live video on the left, processed mask on the right, HSV parameters and validation below</em>
 </p>
 
-1. Open `app_TP1_25547_15526.mlapp` in MATLAB and run it.
+1. Open `app.mlapp` in MATLAB and run it.
 2. Press **Connect**. The webcam starts and the live image appears under *Original*.
 3. Calibrate each colour: press **Calibrate Red**, **Blue** or **Yellow** and click **5 points** of that colour on the image. The HSV ranges are filled in automatically, and can also be typed by hand and applied with **Manually Input HSV Values**.
 4. Press **Start Processing**. The mask of the detected sign appears under *Processed* and its name under *Signal Detected*.
