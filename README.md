@@ -26,7 +26,7 @@ Built with **MATLAB App Designer**, using the Image Processing and Image Acquisi
 
 The app knows **11 Portuguese traffic signs**, grouped by their main colour:
 
-| Red | | | | |
+| Red |
 |:---:|:---:|:---:|:---:|:---:|
 | <img src="signs/sinalProibido.png" width="90"> | <img src="signs/sinalUltrapassagem.png" width="90"> | <img src="signs/sinalCedencia.png" width="90"> | <img src="signs/sinalLomba.png" width="90"> | <img src="signs/sinalNeve.png" width="90"> |
 | No entry | No overtaking | Give way | Speed bump ahead | Snow / ice risk |
